@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "AwakeRegular";
+  src: url("./fonts/awake-regular-webfont.eot");
+  src: url("./fonts/awake-regular-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/awake-regular-webfont.woff") format("woff"),
+    url("./fonts/awake-regular-webfont.ttf") format("truetype"),
+    url("./fonts/awake-regular-webfont.svg#AwakeRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FuturaMedium";
+  src: url("./fonts/Futura-Medium.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+a {
+  color: #222;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Futura", sans-serif;
+  text-align: center;
+}
+
+p {
+  font-family: "Awake", sans-serif;
+  margin: 5px 30px;
+}
+
+span {
+  color: #032849;
+  font-weight: 700;
+  font-style: italic;
+}
